@@ -1,0 +1,25 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "description": "TypeScript Node.js Template",
+  "main": "dist/app.js",
+  "repository": "https://github.com/scf4/",
+  "author": "scf4",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "watch": "tsc-watch --onSuccess \"node dist/app.js\"",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.9.0",
+    "@types/node": "^13.1.8",
+    "jest": "^24.9.0",
+    "prettier": "1.19.1",
+    "ts-jest": "^24.3.0",
+    "tsc-watch": "^4.1.0",
+    "typescript": "^3.7.5"
+  }
+}
